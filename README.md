@@ -20,6 +20,6 @@ To indicate that a field needs must match a patter, add the attribute validate_r
       
 The validation library will validate the validation fields on blur and provide data-hint messages if they do not meet the validation requirements.
      
-Your form cannot be submitted until all validation has completed.
+Your form cannot be submitted until all validation has completed.  If you submit your form, the first field with an error will be scrolled to.
     
 This library supports the following html elements:  input, select, textarea, and radio
